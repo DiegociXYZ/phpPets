@@ -12,3 +12,9 @@ sexo VARCHAR(2) NOT NULL,
 nombre_cliente VARCHAR(30) NOT NULL,
 nacimiento VARCHAR(20) NOT NULL
 );
+INSERT INTO mascotas (
+  mascota_id, nombre_mascota, tipo, raza, sexo, nombre_cliente, nacimiento
+)
+VALUES
+(1, 'Jojo', 'Perro', 'Puddle', 'M', 'Diego Camargo', '2015'), 
+(2, 'Atun', 'Gato', 'Siames', 'M', 'Ana Alvarez', '2020');
